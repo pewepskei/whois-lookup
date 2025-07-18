@@ -19,7 +19,7 @@ Try the live version:
 
 ## 🛠️ Setup Instructions
 
-Clone the repository (including submodules if any):
+Clone the repository (including submodules):
 
 ```bash
 git clone --recurse-submodules https://github.com/pewepskei/whois-lookup.git
@@ -36,6 +36,20 @@ Build and run the app:
 ```bash
 docker compose up --build -d
 ```
+
+## ▶️ Run Manually (Without Docker)
+
+If you'd like to run each component manually instead of using Docker, refer to the individual repositories:
+
+- **Frontend (Angular)**:  
+  [https://github.com/pewepskei/whois-angular-wrapper](https://github.com/pewepskei/whois-angular-wrapper)
+
+- **Backend (Django REST Framework)**:  
+  [https://github.com/pewepskei/whois-django-wrapper](https://github.com/pewepskei/whois-django-wrapper)
+
+Each repo includes setup instructions and dependencies for running locally without containers.
+
+#
 
 Once the containers are running, access the application at:
 
