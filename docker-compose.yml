@@ -1,0 +1,28 @@
+services:
+  frontend:
+    container_name: whois-frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    working_dir: /app
+    ports:
+      - "4200:4200"
+    volumes:
+      - ./frontend:/app
+    command: npm run start
+    depends_on:
+      - backend
+
+  backend:
+    container_name: whois-backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    working_dir: /app
+    environment:
+      - WHOIS_API_KEY=at_mCPLiAlSN6H22Myl22XyIFa2lJBO3
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    command: python manage.py runserver 0.0.0.0:8000
