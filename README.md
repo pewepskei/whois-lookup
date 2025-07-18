@@ -9,8 +9,8 @@ Try the live version:
 
 ## 🧱 Tech Stack
 
-- **Frontend**: Angular  
-- **Backend**: Django REST Framework  
+- **Frontend**: [Angular](https://github.com/pewepskei/whois-angular-wrapper)
+- **Backend**: [Django REST Framework](https://github.com/pewepskei/whois-django-wrapper)  
 - **Containerization**: Docker + Docker Compose
 
 ## 📦 Requirements
