@@ -39,12 +39,12 @@ docker compose up --build -d
 
 Once the containers are running, access the application at:
 
-- 🌐 **Frontend**: [http://localhost:4200](http://localhost:4200)
+- 🌐 **Frontend**: [http://localhost:5000](http://localhost:5000)
 - 🔌 **Backend API**: [http://localhost:8000](http://localhost:8000)
 
 ## 📝 Notes
 
-- The Angular frontend runs on port `4200`.
+- The Angular frontend runs on port `5000`.
 - The Django backend runs on port `8000`.
 - Make sure those ports are free before starting the containers.
 
