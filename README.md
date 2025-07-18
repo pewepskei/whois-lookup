@@ -22,7 +22,7 @@ Try the live version:
 Clone the repository (including submodules if any):
 
 ```bash
-git clone --recurse-submodules https://github.com/yourusername/whois-lookup.git
+git clone --recurse-submodules https://github.com/pewepskei/whois-lookup.git
 cd whois-lookup
 ```
 
