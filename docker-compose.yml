@@ -7,8 +7,6 @@ services:
     working_dir: /app
     ports:
       - "4200:4200"
-    volumes:
-      - ./frontend:/app
     command: npm run start
     depends_on:
       - backend
